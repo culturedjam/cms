@@ -1,0 +1,22 @@
+{
+  "name": "culturedjam-cms",
+  "private": true,
+  "license": "AGPL-3.0-or-later",
+  "engines": {
+    "node": "^16.15.1"
+  },
+  "scripts": {
+    "start": "strapi develop --browser=true",
+    "strapi": "strapi",
+    "strapi:start": "strapi start",
+    "strapi:develop": "strapi develop",
+    "strapi:build": "strapi build",
+    "strapi:help": "strapi help"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "^4.2.2",
+    "@strapi/plugin-graphql": "^4.2.2",
+    "@strapi/strapi": "^4.2.2",
+    "better-sqlite3": "^7.5.3"
+  }
+}

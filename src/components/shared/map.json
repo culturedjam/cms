@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_maps",
+  "info": {
+    "displayName": "Map",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.location"
+    },
+    "geojson": {
+      "type": "json"
+    }
+  }
+}
